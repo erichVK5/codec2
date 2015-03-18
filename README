@@ -16,9 +16,15 @@ Quickstart
 NOTE: Use the "codec2" or "codec2-dev" depending on which repository
       you are working with
 
+NOTE: You may not have the necessary speex libraries installed. Some
+      distributions may have packages available 
+      i.e. sudo apt-get install speex-*
+      alternatively, visit http://www.speex.org and follow the instructions
+
 1/ Listen to Codec 2:
    $ cd codec2
    $ mkdir build_linux
+   $ cd build_linux
    $ cmake ..
    $ make
    $ ./src/c2demo ../raw/hts1a.raw hts1a_c2.raw
