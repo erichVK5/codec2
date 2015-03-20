@@ -6,7 +6,7 @@ in addition to installing octave, and the GNU units package
 
 i.e. for debian package manager based linux distributions:
 
-   sudo apt-get install octave liboctave-dev units
+   sudo apt-get install octave octave-info liboctave-dev units
 
 further packages will be required:
 
